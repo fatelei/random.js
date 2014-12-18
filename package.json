@@ -1,5 +1,5 @@
 {
-  "name": "randomjs",
+  "name": "random",
   "version": "0.0.1",
   "description": "JavaScript random tools.",
   "main": "index.js",
