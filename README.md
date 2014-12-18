@@ -1,6 +1,8 @@
 random.js
 =========
 
+[![Build Status](https://travis-ci.org/fatelei/random.js.svg?branch=master)](https://travis-ci.org/fatelei/random.js)
+
 JavaScript random tools
 
 ## Install
