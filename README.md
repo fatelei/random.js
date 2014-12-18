@@ -8,13 +8,13 @@ JavaScript random tools
 ## Install
 
 ```
-npm install random
+npm install jsrandom
 ```
 
 ## Usage
 
 ```
-var random = require('random');
+var random = require('jsrandom');
 var arr = [1, 2, 3, 4, 5];
 
 console.log(random.randomInt(1, 10));
