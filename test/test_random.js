@@ -21,4 +21,22 @@ describe('Test random', function () {
       assert.ok(array[0] === rst[0]);
     });
   });
+
+  describe('Test randomObject', function () {
+    it('should be ok', function () {
+      var obj = {
+          '1': 1,
+          '2': 2,
+          '3': 3,
+          '4': 4
+      };
+
+      var newObj = random.randomObject(obj);
+
+      var oldKeys = Object.keys(obj);
+      var newkeys = Object.keys(newObj);
+
+      assert.ok(oldKeys[0] === newkeys[0] || oldKeys[0] !== newkeys[0]);
+    });
+  });
 });
