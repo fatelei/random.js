@@ -1,6 +1,6 @@
 {
   "name": "jsrandom",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "JavaScript random tools.",
   "main": "index.js",
   "scripts": {
