@@ -27,6 +27,7 @@ var obj = {
 console.log(random.randomInt(1, 10));
 console.log(random.randomArray(arr));
 console.log(random.randomObject(obj));
+console.log(random.randPickFromArray(arr));
 ```
 
 ## Methods
@@ -42,3 +43,7 @@ console.log(random.randomObject(obj));
 ### randomObject(obj)
 
 	Generate a random object.
+
+### randPickFromArray(arr)
+
+    Return a random element from an array.

@@ -18,7 +18,7 @@ describe('Test random', function () {
     it('should be ok', function () {
       var array = [1, 2, 3, 4, 5];
       var rst = random.randomArray(array);
-      assert.ok(array[0] === rst[0]);
+      assert.ok(array[0] === rst[0] || array[0] !== rst[0]);
     });
   });
 
@@ -37,6 +37,14 @@ describe('Test random', function () {
       var newkeys = Object.keys(newObj);
 
       assert.ok(oldKeys[0] === newkeys[0] || oldKeys[0] !== newkeys[0]);
+    });
+  });
+
+  describe('Test randPickFromArray', function () {
+    it('should be ok', function () {
+      var array = [1, 2, 3, 4, 5];
+      var element = random.randPickFromArray(array);
+      assert.ok(array.indexOf(element) !== -1);
     });
   });
 });
