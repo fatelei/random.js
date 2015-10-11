@@ -40,10 +40,10 @@ describe('Test random', function () {
     });
   });
 
-  describe('Test randPickFromArray', function () {
+  describe('Test choice', function () {
     it('should be ok', function () {
       var array = [1, 2, 3, 4, 5];
-      var element = random.randPickFromArray(array);
+      var element = random.choice(array);
       assert.ok(array.indexOf(element) !== -1);
     });
   });
