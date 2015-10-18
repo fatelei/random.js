@@ -47,4 +47,12 @@ describe('Test random', function () {
       assert.ok(array.indexOf(element) !== -1);
     });
   });
+
+  describe('Test choice empty array', function () {
+    it('should be ok', function () {
+      var array = [];
+      var element = random.choice(array);
+      assert.deepEqual(element, undefined);
+    });
+  });
 });
